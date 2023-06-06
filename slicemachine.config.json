@@ -1,0 +1,6 @@
+{
+  "repositoryName": "charityprismic2023",
+  "adapter": "@slicemachine/adapter-next",
+  "libraries": ["./slices"],
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "self_exploration_cta_links",
+  "type": "SharedSlice",
+  "name": "SelfExplorationCtaLinks",
+  "description": "SelfExplorationCtaLinks",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "headline": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Headline",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "ctalink1": {
+          "type": "Link",
+          "config": { "label": "CTALink1", "placeholder": "", "select": null }
+        },
+        "ctalink2": {
+          "type": "Link",
+          "config": { "label": "CTALink2", "placeholder": "", "select": null }
+        },
+        "ctalink3": {
+          "type": "Link",
+          "config": { "label": "CTALink3", "placeholder": "", "select": null }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
